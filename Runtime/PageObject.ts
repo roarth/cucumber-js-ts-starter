@@ -1,8 +1,3 @@
-/**
- *  Privowny
- *
- *  Copyright (c) Privowny 2010-2020 -- All Rights Reserved
- */
 import { By } from "selenium-webdriver";
 import { expect } from "chai";
 import {getWorld} from ".";
