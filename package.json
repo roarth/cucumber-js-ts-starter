@@ -1,0 +1,11 @@
+{
+  "name": "cucumber-js-ts-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:roarth/cucumber-js-ts-starter.git",
+  "author": "Mirete Benoit <ben@mirete.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
