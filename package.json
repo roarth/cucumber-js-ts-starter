@@ -5,7 +5,17 @@
   "repository": "git@github.com:roarth/cucumber-js-ts-starter.git",
   "author": "Mirete Benoit <ben@mirete.fr>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig-e2e.json"
+  },
   "dependencies": {
-    "cucumber": "^7.0.0-rc.0"
+    "@types/chai": "^4.2.14",
+    "@types/chromedriver": "^81.0.0",
+    "@types/cucumber": "^6.0.1",
+    "@types/selenium-webdriver": "^4.0.9",
+    "chai": "^4.2.0",
+    "chromedriver": "^86.0.0",
+    "cucumber": "^7.0.0-rc.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }

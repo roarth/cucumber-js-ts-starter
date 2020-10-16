@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "outDir": "./build/e2e",
+    "baseUrl": "e2e_2",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
